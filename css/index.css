@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+#container{
+    width: 966px;
+    margin: 0 auto;
+}
+.gameShot{
+    float: left;
+    margin: 12px 12px;
+}
+img{
+    width: 240px;
+    height: 240px;
+}

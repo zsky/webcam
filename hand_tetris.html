@@ -1,0 +1,106 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>headgame</title>
+        <meta charset="utf-8">
+
+     		<link type="text/css" rel="stylesheet" href="css/tetris.css"/>
+     		<link type="text/css" rel="stylesheet" href="css/handtetris.css"/>
+    </head>
+    <body>
+
+        <div id="container">
+            <div id="head">
+                <h3> enjoy yourself</h3>
+                <a href="index.html">home</a>
+            </div>
+
+            <div id="control">
+                <video id="video" autoplay="" width="300"></video>
+                <canvas id="canvas"></canvas>
+                <div id="disp"><canvas id="comp"></canvas></div>
+
+            </div>
+
+           <div id="tetris">
+			<div id="tetris-wrap">
+				<div id="tetris-wrap-inner">
+					<div id="tetris-main">
+					</div>
+					<div id="tetris-overlay">
+						<div id="tetris-message"></div>
+					</div>
+					<div id="tetris-side">
+						<div id="tetris-side-inner">
+							<div id="tetris-next">
+								<div id="tetris-next-inner"></div>
+							</div>
+							<div id="tetris-scores">
+								<dl>
+									<dt>Level:</dt>
+									<dd id="tetris-level">1</dd>
+								</dl>
+								<dl>
+									<dt>Score:</dt>
+									<dd id="tetris-score">0</dd>
+								</dl>
+								<dl>
+									<dt>Singles:</dt>
+									<dd id="tetris-singles">0</dd>
+								</dl>
+								<dl>
+									<dt>Doubles:</dt>
+									<dd id="tetris-doubles">0</dd>
+								</dl>
+								<dl>
+									<dt>Triples:</dt>
+									<dd id="tetris-triples">0</dd>
+								</dl>
+								<dl>
+									<dt>Tetris:</dt>
+									<dd id="tetris-quads">0</dd>
+								</dl>
+
+								<div class="clear"></div>
+							</div>
+							<div id="tetris-keys">
+								<dl>
+									<dt>Move:</dt>
+									<dd>&larr; &darr; &rarr;<dd>
+								</dl>
+								<dl>
+									<dt>Rotate:</dt>
+									<dd>&uarr;<dd>
+								</dl>
+								<dl>
+									<dt>Drop:</dt>
+									<dd>Spacebar<dd>
+								</dl>
+								<dl>
+									<dt>Pauze:</dt>
+									<dd>Pauze/Esc<dd>
+								</dl>
+
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+
+			</div>
+		</div>
+
+
+            <div id="footer">
+                <p> by UniqueStudio </p>
+            </div>
+        </div>
+
+
+        <script type="text/javascript" src="js/tetris.js"></script>
+        <script src="js/handcontrol.js"></script>
+
+    </body>
+</html>
